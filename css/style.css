@@ -185,6 +185,8 @@ a.hvr-overline-from-left:hover:before,a.hvr-overline-from-left:focus:before,a.hv
     margin-bottom: 35px;
 }
 
+
+
 /*-- team --*/ /*
 .experts,.banner-bottom {
     padding: 90px 0;
@@ -666,14 +668,25 @@ p.bot-para {
     padding: 8em 0em 7em;
     border-top: none;
     text-align: center;
-	background:#f2f2f2;
+	  background:#f2f2f2;
 }	
-.bot-img h4 {
-    color: #333;
-    font-size: 25px;
+.bot-img h4 a{
+    color: #ae1012;
+    font-size: 35px;
 }
+
+.bot-img h4 a:hover{
+  color: #ECD517;
+}
+
+
+
 .bot-grids{
 	margin-top:100px;
+}
+
+.wel-grid {
+  cursor:pointer;
 }
 
 .wel-grid .icon {
